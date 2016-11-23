@@ -57,3 +57,8 @@ linux系统上
 	(gdb) finish        // 跳出func函数
 	(gdb) next
 	(gdb) quit
+
+这里要调试的程序得是交叉编译过的，并且加了-g参数。
+
+	gcc gdb-sample.c -o gdb-sample -g
+
